@@ -1,6 +1,7 @@
 import re
-from carte import display_mountain
-from carte import display_plain
+from model.Display import display_mountain, display_plain
+
+
 class tour:
     def __init__(self, aventuriers):
         self.tour=0

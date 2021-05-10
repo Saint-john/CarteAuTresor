@@ -1,4 +1,6 @@
-import attributes_validator as v
+from business import attributes_validator as v
+
+
 def test_is_valid_number():
     assert v.is_valid_number(2)==2
     

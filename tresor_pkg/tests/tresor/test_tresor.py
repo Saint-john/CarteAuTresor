@@ -1,4 +1,4 @@
-from tresor import tresor
+from model.tresor import tresor
 
 
 def test_update_tresor():

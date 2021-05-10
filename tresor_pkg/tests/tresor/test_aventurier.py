@@ -1,5 +1,5 @@
-from aventurier import aventurier
-from carte import carte
+from model.aventurier import aventurier
+from model.carte import carte
 def test_aventurier():
     a=aventurier("john",3,2,"N","ADAGGADA")
     assert a

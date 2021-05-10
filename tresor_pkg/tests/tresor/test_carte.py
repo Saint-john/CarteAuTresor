@@ -1,9 +1,8 @@
-import pytest
-from carte import carte
-from mountain import mountain
-from tresor import tresor
-from aventurier import aventurier
-from tour import tour
+from model.carte import carte
+from model.mountain import mountain
+from model.tresor import tresor
+from model.aventurier import aventurier
+
 
 def test_carte():
         c=carte(10,3)

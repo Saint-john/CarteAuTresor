@@ -1,6 +1,5 @@
-from carte import carte
-import attributes_validator as v
-class aventurier(carte):
+import business.attributes_validator as v
+class aventurier:
     def __init__(self, name, axis_h, axis_v, orientation,chemin, nb_tresor=0):
         self.name=v.is_valid_string(name)
         self.axis_h=v.is_valid_number(axis_h)

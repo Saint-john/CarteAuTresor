@@ -1,12 +1,14 @@
-from tour import tour
-from carte import carte
-from aventurier import aventurier
-from tour import start_simulation
-from tresor import tresor
-from tour import update_tresors
-from tour import check_if_can_move
-from mountain import mountain
-from carte import display_mountain
+from business.tour import tour
+from model.carte import carte
+from model.aventurier import aventurier
+from business.tour import start_simulation
+from model.tresor import tresor
+from business.tour import update_tresors
+from business.tour import check_if_can_move
+from model.mountain import mountain
+from model.Display import display_mountain
+
+
 def test_simulation():
     c=carte(4,4)
     c.aventuriers.append(aventurier("john",3,2,"S","ADAGGADA"))
