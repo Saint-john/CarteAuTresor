@@ -9,6 +9,6 @@ def test_init_input():
     assert c
 
 def test_verify_input_path():
-    cwd,inputdir,dir=verify_input_path("/test_input_dir")
+    cwd,inputdir,dir=verify_input_path("/input")
     #dir is boolean that means the directory exists
     assert dir
