@@ -1,0 +1,16 @@
+C - 9 - 8
+#M comme montagne - axe horizontal - axe vertical
+M - 2 - 1
+M - 0 - 0
+M - 1 - 1
+M - 7 - 6
+M - 3 - 7
+#T comme tresor - axe horizontal - axe vertical - nombre de tresors restant
+T - 4 - 4 - 1
+T - 2 - 3 - 2
+T - 6 - 6 - 2
+T - 8 - 2 - 3
+T - 1 - 7 - 1
+#A comme aventurier - nom de l'aventurier - axe horizontal - axe vertical - orientation - nombre de tresors ramasses
+A - John - 2 - 0 - E - AGAAGAAADADDAAAAA - 0
+A - Lucie - 0 - 4 - O - GAADDAAAGAGAGAAAAADA- 0

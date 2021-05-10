@@ -1,0 +1,20 @@
+#C comme carte - axe horizontal - axe vertical 
+C - 5 - 5
+#M comme montagne - axe horizontal - axe vertical 
+#T comme tresor - axe horizontal - axe vertical - nombre de tresors restant 
+#A comme aventurier - nom de l'aventurier - axe horizontal - axe vertical - orientation - nombre de tresors ramasses 
+
+
+	 El mapa de la madre de dios 
+
+.          .          .          .          .         
+.          .          .          .          .         
+.          .          .          .          .         
+.          .          .          .          .         
+.          .          .          .          .         
+
+
+
+
+	 Consigne: Les numeros sur la carte represente le tour dans lequel l'aventurier occupait cette position. (par exemple si je ne bouge pas le tour 2 mais que le tour 3 je me deplace alors le (tour-1=2) apparaitra sur la position precedente 
+
